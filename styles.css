@@ -1,0 +1,70 @@
+/* add media queries for [body -> margin @ different screen sizes] */
+
+* {
+  /* border: 1px solid black; */
+  /* flex-shrink: 0; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title, #img-div, #tribute-title, .learn-more, .tribute-text {
+  text-align: center;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #3b5175;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 100%;
+}
+
+.tribute-text, ul, .learn-more {
+  font-size: 20px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: #a9bbd9;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 10px 0px 10px;
+}
+
+#img {
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tribute-title {
+
+}
+
+ul {
+  max-width: 50%;
+  height: auto;
+}
+
+li {
+  margin: 20px 0;
+}
